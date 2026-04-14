@@ -13,21 +13,7 @@ public class SpriteSheet : ScriptableObject
     public bool useCurrency;
     public Currency currency;
 
-    public void UpdateIndex()
-    {
-        if (useFlower)
-        {
-
-            return;
-        }
-        if (useCurrency)
-        {
-
-            return;
-        }
-    }
-
-    public void SpriteChange()
+    public void IncreaseSpriteChange()
     {
         if (animation.Length != 0 && animation.Length > index)
         {
@@ -39,5 +25,25 @@ public class SpriteSheet : ScriptableObject
             spriteIcon = animation[index];
             return;
         }
+    }
+
+    public void DecreaseSpriteChange()
+    {
+        if (animation.Length != 0 && animation.Length > index)
+        {
+            index--;
+            if (index == -1)
+            {
+                index = animation.Length - 1;
+            }
+            spriteIcon = animation[index];
+            return;
+        }
+    }
+
+    public void SpriteReset()
+    {
+        index = 0;
+        spriteIcon = animation[index];
     }
 }

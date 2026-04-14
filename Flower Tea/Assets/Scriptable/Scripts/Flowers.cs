@@ -7,6 +7,7 @@ public class Flowers : SpriteSheet
     [Header("Game Info")]
     public string title;
     public Stages stage;
+    public Sprite seed;
     public List<Ingredients> ingredients;
 
     [Header("Script Info")]

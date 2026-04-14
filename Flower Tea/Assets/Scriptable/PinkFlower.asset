@@ -13,21 +13,23 @@ MonoBehaviour:
   m_Name: PinkFlower
   m_EditorClassIdentifier: 
   animation:
-  - {fileID: 21300000, guid: 702f8f785cae91a4195792f8e58e567a, type: 3}
-  - {fileID: 21300000, guid: 0da049b760fb07947958319575be8b58, type: 3}
-  - {fileID: 21300000, guid: bd52b289a847ff544abafaec9ae44822, type: 3}
-  - {fileID: 21300000, guid: ddf8620e30e5f1742ab0c1dbc4725f34, type: 3}
-  - {fileID: 21300000, guid: eb512c6535efef44897b4a44caa8b430, type: 3}
-  - {fileID: 21300000, guid: f1305dcd30f6ca64485279fdcbb1db9e, type: 3}
-  - {fileID: 21300000, guid: 8f8d8860c2e06184790fae27500c330d, type: 3}
-  spriteIcon: {fileID: 21300000, guid: f1305dcd30f6ca64485279fdcbb1db9e, type: 3}
-  index: 5
+  - {fileID: 21300000, guid: 32c57856ff34838489b7ce460afe3fd2, type: 3}
+  - {fileID: 21300000, guid: fcce69c10d852c34a907f66c6df37bae, type: 3}
+  - {fileID: 21300000, guid: ad4632060afca0740b0db502985d5820, type: 3}
+  - {fileID: 21300000, guid: a629d5d243d52c14ca19b36b15845154, type: 3}
+  - {fileID: 21300000, guid: 722f899f10e489d43aee7661256af56d, type: 3}
+  - {fileID: 21300000, guid: 8443326304fe66f449f6a5265f9c7a92, type: 3}
+  - {fileID: 21300000, guid: f53670505ffd70b4291a1a7823a2e5d5, type: 3}
+  - {fileID: 21300000, guid: b4016d7293b05384585e2026d7ad0ab9, type: 3}
+  spriteIcon: {fileID: 21300000, guid: 32c57856ff34838489b7ce460afe3fd2, type: 3}
+  index: 0
   useFlower: 1
   flower: {fileID: 11400000}
   useCurrency: 0
   currency: {fileID: 0}
   title: Pink Flower
   stage: 0
+  seed: {fileID: 21300000, guid: 7dced2289f872474e9430d8f5bc0f72d, type: 3}
   ingredients:
   - {fileID: 11400000, guid: 0eed54688bcedfa49accc54cd1379f8f, type: 2}
   - {fileID: 11400000, guid: 0eed54688bcedfa49accc54cd1379f8f, type: 2}

@@ -12,12 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be8bf3b7c6cc06c4bae4278b33f56e73, type: 3}
   m_Name: Currency
   m_EditorClassIdentifier: 
-  animation: []
+  animation:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: f10d51a9bee2bb341971740b42045896, type: 3}
+  - {fileID: 21300000, guid: fd6c0e2ade505454780765d802e68e05, type: 3}
+  - {fileID: 21300000, guid: 519fb3279c6d5c94ea99e93913c4de09, type: 3}
+  - {fileID: 21300000, guid: 5ea12a08944b75e499519ec765dea818, type: 3}
+  - {fileID: 21300000, guid: 1c2957cc34c65124280b9bdd1b5095ae, type: 3}
   spriteIcon: {fileID: 0}
   index: 0
   useFlower: 0
   flower: {fileID: 0}
-  useCurrency: 0
+  useCurrency: 1
   currency: {fileID: 11400000}
-  title: 
+  title: Gold
   amount: 0

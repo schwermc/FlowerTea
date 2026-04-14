@@ -5,10 +5,18 @@ using UnityEngine.UI;
 public class Sprites : MonoBehaviour
 {
     public float time = 15f;
+    public float wilting = 30f;
     public bool isGrowing = true;
 
-    [SerializeField] SpriteSheet _spriteSheet;
+    [SerializeField] SpriteSheet _sprites;
     [SerializeField] Image _uiImage;
+
+    private SpriteSheet _spriteSheet;
+
+    void Awake()
+    {
+        _spriteSheet = Instantiate(_sprites);
+    }
 
     void Start()
     {
@@ -23,7 +31,7 @@ public class Sprites : MonoBehaviour
 
     public void SpriteChange()
     {
-        _spriteSheet.SpriteChange();
+        _spriteSheet.IncreaseSpriteChange();
         _uiImage.sprite = _spriteSheet.spriteIcon;
     }
 
