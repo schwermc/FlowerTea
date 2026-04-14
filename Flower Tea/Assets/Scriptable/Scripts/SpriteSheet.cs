@@ -31,7 +31,13 @@ public class SpriteSheet : ScriptableObject
     {
         if (animation.Length != 0 && animation.Length > index)
         {
-            Debug.Log(animation.Length + " : " + index);
+            if (animation.Length - 1 == index)
+            {
+                index = -1;
+            }
+            index++;
+            spriteIcon = animation[index];
+            return;
         }
     }
 }

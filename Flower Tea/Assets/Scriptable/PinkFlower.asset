@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11fea988f44df940918124e95113aec, type: 3}
+  m_Name: PinkFlower
+  m_EditorClassIdentifier: 
+  animation:
+  - {fileID: 21300000, guid: 702f8f785cae91a4195792f8e58e567a, type: 3}
+  - {fileID: 21300000, guid: 0da049b760fb07947958319575be8b58, type: 3}
+  - {fileID: 21300000, guid: bd52b289a847ff544abafaec9ae44822, type: 3}
+  - {fileID: 21300000, guid: ddf8620e30e5f1742ab0c1dbc4725f34, type: 3}
+  - {fileID: 21300000, guid: eb512c6535efef44897b4a44caa8b430, type: 3}
+  - {fileID: 21300000, guid: f1305dcd30f6ca64485279fdcbb1db9e, type: 3}
+  - {fileID: 21300000, guid: 8f8d8860c2e06184790fae27500c330d, type: 3}
+  spriteIcon: {fileID: 21300000, guid: f1305dcd30f6ca64485279fdcbb1db9e, type: 3}
+  index: 5
+  useFlower: 1
+  flower: {fileID: 11400000}
+  useCurrency: 0
+  currency: {fileID: 0}
+  title: Pink Flower
+  stage: 0
+  ingredients:
+  - {fileID: 11400000, guid: 0eed54688bcedfa49accc54cd1379f8f, type: 2}
+  - {fileID: 11400000, guid: 0eed54688bcedfa49accc54cd1379f8f, type: 2}
+  - {fileID: 11400000, guid: 0eed54688bcedfa49accc54cd1379f8f, type: 2}
+  cost: 15
