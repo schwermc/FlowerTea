@@ -7,7 +7,6 @@ public class B_Replant : MonoBehaviour
     [SerializeField] List<Flowers> m_Flowers;
 
     public float _Time;
-    public float _Wilt;
 
     private void Awake()
     {

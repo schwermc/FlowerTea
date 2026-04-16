@@ -55,7 +55,7 @@ public class Sprites : MonoBehaviour
     public void updateSprite(SpriteSheet sprite)
     {
         Destroy(_spriteSheet);
-        _spriteSheet = Instantiate(_sprites);
+        _spriteSheet = Instantiate(sprite);
         _spriteSheet.index = -1;
         SpriteChange();
         isGrowing = true;
