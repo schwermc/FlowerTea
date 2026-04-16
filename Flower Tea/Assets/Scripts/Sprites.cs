@@ -40,7 +40,10 @@ public class Sprites : MonoBehaviour
         isGrowing = false;
         if (_spriteSheet.animation.Length - 1 != _spriteSheet.index)
         {
-            yield return new WaitForSeconds(time);
+            if (_spriteSheet.animation.Length - 2 != _spriteSheet.index)
+                yield return new WaitForSeconds(time);
+            else
+                yield return new WaitForSeconds(wilting);
             SpriteChange();
             isGrowing = true;
         }

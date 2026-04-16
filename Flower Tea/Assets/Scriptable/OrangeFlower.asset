@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11fea988f44df940918124e95113aec, type: 3}
+  m_Name: OrangeFlower
+  m_EditorClassIdentifier: 
+  animation:
+  - {fileID: 21300000, guid: 32c57856ff34838489b7ce460afe3fd2, type: 3}
+  - {fileID: 21300000, guid: fcce69c10d852c34a907f66c6df37bae, type: 3}
+  - {fileID: 21300000, guid: ad4632060afca0740b0db502985d5820, type: 3}
+  - {fileID: 21300000, guid: a629d5d243d52c14ca19b36b15845154, type: 3}
+  - {fileID: 21300000, guid: f7b9a8cdd30f0fb49bc2bed0ed4849e1, type: 3}
+  - {fileID: 21300000, guid: 1a64ea8bfdba72a4d9337a1b91ca5c30, type: 3}
+  - {fileID: 21300000, guid: f4db75ee451c18d48b7a66d3464526a9, type: 3}
+  - {fileID: 21300000, guid: c1ff16763dacd9a41a7919b1db057488, type: 3}
+  spriteIcon: {fileID: 21300000, guid: 32c57856ff34838489b7ce460afe3fd2, type: 3}
+  index: 0
+  useFlower: 1
+  flower: {fileID: 11400000}
+  useCurrency: 0
+  currency: {fileID: 0}
+  title: Orange Flower
+  stage: 0
+  seed: {fileID: 21300000, guid: 7dced2289f872474e9430d8f5bc0f72d, type: 3}
+  ingredients:
+  - {fileID: 11400000, guid: 0eed54688bcedfa49accc54cd1379f8f, type: 2}
+  - {fileID: 11400000, guid: 0eed54688bcedfa49accc54cd1379f8f, type: 2}
+  - {fileID: 11400000, guid: 0eed54688bcedfa49accc54cd1379f8f, type: 2}
+  cost: 15

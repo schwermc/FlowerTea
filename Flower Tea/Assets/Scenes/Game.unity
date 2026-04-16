@@ -281,7 +281,7 @@ MonoBehaviour:
   time: 15
   wilting: 30
   isGrowing: 1
-  _sprites: {fileID: 11400000, guid: 58103a7bbc2cac74a89eb1a6d8aba104, type: 2}
+  _sprites: {fileID: 11400000, guid: 4735c9c4dad844e40895227f6b86a185, type: 2}
   _uiImage: {fileID: 549727317}
 --- !u!114 &549727317
 MonoBehaviour:
@@ -452,7 +452,7 @@ MonoBehaviour:
   time: 15
   wilting: 30
   isGrowing: 1
-  _sprites: {fileID: 11400000, guid: 58103a7bbc2cac74a89eb1a6d8aba104, type: 2}
+  _sprites: {fileID: 11400000, guid: c412c3d49e5536040873de0d5af4be32, type: 2}
   _uiImage: {fileID: 996195342}
 --- !u!114 &996195342
 MonoBehaviour:
@@ -545,7 +545,7 @@ MonoBehaviour:
   time: 15
   wilting: 30
   isGrowing: 1
-  _sprites: {fileID: 11400000, guid: 58103a7bbc2cac74a89eb1a6d8aba104, type: 2}
+  _sprites: {fileID: 11400000, guid: 91cc017f890ab1f45a647a4934a1d01a, type: 2}
   _uiImage: {fileID: 1018716054}
 --- !u!114 &1018716054
 MonoBehaviour:
@@ -1197,7 +1197,7 @@ MonoBehaviour:
   time: 15
   wilting: 30
   isGrowing: 1
-  _sprites: {fileID: 11400000, guid: 58103a7bbc2cac74a89eb1a6d8aba104, type: 2}
+  _sprites: {fileID: 11400000, guid: 91cc017f890ab1f45a647a4934a1d01a, type: 2}
   _uiImage: {fileID: 1697491782}
 --- !u!114 &1697491782
 MonoBehaviour:
@@ -1290,7 +1290,7 @@ MonoBehaviour:
   time: 15
   wilting: 30
   isGrowing: 1
-  _sprites: {fileID: 11400000, guid: 58103a7bbc2cac74a89eb1a6d8aba104, type: 2}
+  _sprites: {fileID: 11400000, guid: c412c3d49e5536040873de0d5af4be32, type: 2}
   _uiImage: {fileID: 1772397094}
 --- !u!114 &1772397094
 MonoBehaviour:
@@ -1383,7 +1383,7 @@ MonoBehaviour:
   time: 15
   wilting: 30
   isGrowing: 1
-  _sprites: {fileID: 11400000, guid: 58103a7bbc2cac74a89eb1a6d8aba104, type: 2}
+  _sprites: {fileID: 11400000, guid: 6b29f5c25d2f0fd40aaae397270f128e, type: 2}
   _uiImage: {fileID: 1906989153}
 --- !u!114 &1906989153
 MonoBehaviour:
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   time: 15
   wilting: 30
   isGrowing: 1
-  _sprites: {fileID: 11400000, guid: 58103a7bbc2cac74a89eb1a6d8aba104, type: 2}
+  _sprites: {fileID: 11400000, guid: 4735c9c4dad844e40895227f6b86a185, type: 2}
   _uiImage: {fileID: 2020775527}
 --- !u!114 &2020775527
 MonoBehaviour:
