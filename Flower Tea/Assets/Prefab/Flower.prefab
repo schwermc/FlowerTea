@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faddf62646075ba4ca74fc1b642ac18b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 1
+  time: 15
   wilting: 30
   isGrowing: 1
   _sprites: {fileID: 11400000, guid: 58103a7bbc2cac74a89eb1a6d8aba104, type: 2}

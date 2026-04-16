@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class Sprites : MonoBehaviour
 {
     public float time = 15f;
-    public float wilting = 30f;
     public bool isGrowing = true;
 
     [SerializeField] SpriteSheet _sprites;
@@ -42,10 +41,23 @@ public class Sprites : MonoBehaviour
         {
             if (_spriteSheet.animation.Length - 2 != _spriteSheet.index)
                 yield return new WaitForSeconds(time);
-            else
-                yield return new WaitForSeconds(wilting);
             SpriteChange();
             isGrowing = true;
         }
+    }
+
+    public bool isWilted()
+    {
+        if (_spriteSheet.animation.Length - 1 == _spriteSheet.index) { return true; }
+        return false;
+    }
+
+    public void updateSprite(SpriteSheet sprite)
+    {
+        Destroy(_spriteSheet);
+        _spriteSheet = Instantiate(_sprites);
+        _spriteSheet.index = -1;
+        SpriteChange();
+        isGrowing = true;
     }
 }
